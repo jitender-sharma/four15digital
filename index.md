@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="ui segment form column section small">
-            <h4 class="ui left content floated header">Teaser Section</h4>
+            <h4 class="ui left content floated header">Bacon & Butter Creatives Type 1</h4>
             <div class="ui clearing divider"></div>
             <div class="fields">
                 <div class="two wide field"></div>
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="ui segment form column section small">
-            <h4 class="ui left content floated header">Teaser Section</h4>
+            <h4 class="ui left content floated header">TBacon & Butter Creatives Type 2</h4>
             <div class="ui clearing divider"></div>
             <div class="fields">
                 <div class="two wide field"></div>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="ui segment form column section small">
-            <h4 class="ui left content floated header">Teaser Section</h4>
+            <h4 class="ui left content floated header">250x250 Bacon & Butter Creatives Type 1</h4>
             <div class="ui clearing divider"></div>
             <div class="fields">
                 <div class="two wide field"></div>
@@ -90,7 +90,7 @@
             </div>
         </div>
         <div class="ui segment form column section small">
-            <h4 class="ui left content floated header">Teaser Section</h4>
+            <h4 class="ui left content floated header">250x250 Bacon & Butter Creatives Type 2</h4>
             <div class="ui clearing divider"></div>
             <div class="fields">
                 <div class="two wide field"></div>
@@ -113,7 +113,7 @@
             </div>
         </div>
         <div class="ui segment form column section small">
-            <h4 class="ui left content floated header">Teaser Section</h4>
+            <h4 class="ui left content floated header">mytransitplanner Creatives</h4>
             <div class="ui clearing divider"></div>
             <div class="fields">
                 <div class="two wide field"></div>
