@@ -1,38 +1,147 @@
-## Welcome to GitHub Pages
+<!DOCTYPE HTML>
+<html>
 
-You can use the [editor on GitHub](https://github.com/livejitendersharma/four15digital/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <title>Banner Ad</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link rel="stylesheet" href="https://semantic-ui.com/dist/semantic.min.css" />
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <div class=" ui one column grid">
+        <div class="column">
+            <div class="ui basic segment custom_heading">
+                <h3 class="ui blue header">
+            
+            <div class="content">
+              Creatives
+            </div>
+          </h3>
+            </div>
+        </div>
+        <div class="ui segment form column section small">
+            <h4 class="ui left content floated header">Teaser Section</h4>
+            <div class="ui clearing divider"></div>
+            <div class="fields">
+                <div class="two wide field"></div>
+                <div class="fourteen wide field">
+                    <div class="ui small">
+                        <img src="Bacon/336x280/BaconSet1_336%C3%97280.jpg">
+                        <img src="Bacon/336x280/BaconSet1_336%C3%97280.png">
+                        <img src="Bacon/336x280/BaconSet1_336%C3%97280.gif">
+                    </div>
+                </div>
+            </div>
+            <div class="fields">
+                <div class="four wide field left">Animated GIF & PNG format banner</div>
+                <div class="twelve wide field">
+                    <div class="ui small">
+                        <img src="Bacon/336x280/BaconSet1_336%C3%97280_1.gif">
+                        <img src="Bacon/336x280/BaconSet1_Animation.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui segment form column section small">
+            <h4 class="ui left content floated header">Teaser Section</h4>
+            <div class="ui clearing divider"></div>
+            <div class="fields">
+                <div class="two wide field"></div>
+                <div class="fourteen wide field">
+                    <div class="ui small">
+                        <img src="Bacon/336x280/BaconSet2_336%C3%97280.jpg">
+                        <img src="Bacon/336x280/BaconSet2_336%C3%97280.png">
+                        <img src="Bacon/336x280/BaconSet2_336%C3%97280.gif">
+                    </div>
+                </div>
+            </div>
+            <div class="fields">
+                <div class="four wide field left">Animated GIF & PNG format banner</div>
+                <div class="twelve wide field">
+                    <div class="ui small">
+                        <img src="Bacon/336x280/BaconSet2_336%C3%97280_1.gif">
+                        <img src="Bacon/336x280/BaconSet2_Animation.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui segment form column section small">
+            <h4 class="ui left content floated header">Teaser Section</h4>
+            <div class="ui clearing divider"></div>
+            <div class="fields">
+                <div class="two wide field"></div>
+                <div class="twelve wide field">
+                    <div class="ui small">
+                        <img src="Bacon/250x250/BaconSet1_250x250.jpg">
+                        <img src="Bacon/250x250/BaconSet1_250x250.png">
+                        <img src="Bacon/250x250/BaconSet1_250x250.gif">
+                    </div>
+                </div>
+            </div>
+            <div class="fields">
+                <div class="four wide field left">Animated GIF & PNG format banner</div>
+                <div class="twelve wide field">
+                    <div class="ui small">
+                        <img src="Bacon/250x250/BaconSet1_250x250.gif">
+                        <img src="Bacon/250x250/BaconSet1_Animation.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui segment form column section small">
+            <h4 class="ui left content floated header">Teaser Section</h4>
+            <div class="ui clearing divider"></div>
+            <div class="fields">
+                <div class="two wide field"></div>
+                <div class="fourteen wide field">
+                    <div class="ui small">
+                        <img src="Bacon/250x250/BaconSet2_250x250.jpg">
+                        <img src="Bacon/250x250/BaconSet2_250x250.png">
+                        <img src="Bacon/250x250/BaconSet2_250x250.gif">
+                    </div>
+                </div>
+            </div>
+            <div class="fields">
+                <div class="four wide field left">Animated GIF & PNG format banner</div>
+                <div class="twelve wide field">
+                    <div class="ui small">
+                        <img src="Bacon/250x250/BaconSet2_250x250.gif">
+                        <img src="Bacon/250x250/BaconSet2_Animation.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui segment form column section small">
+            <h4 class="ui left content floated header">Teaser Section</h4>
+            <div class="ui clearing divider"></div>
+            <div class="fields">
+                <div class="two wide field"></div>
+                <div class="fourteen wide field">
+                    <div class="ui small">
+                        <img src="MyTransit/336x280/myTransit_336x280.jpg">
+                        <img src="MyTransit/336x280/myTransit_336x280.png">
+                        <img src="MyTransit/336x280/myTransit_336x280.gif">
+                    </div>
+                </div>
+            </div>
+            <div class="fields">
+                <div class="four wide field left"></div>
+                <div class="twelve wide field">
+                    <div class="ui small">
+                        <img src="MyTransit/250x250/myTransit_250x250.jpg">
+                        <img src="MyTransit/250x250/myTransit_250x250.png">
+                        <img src="MyTransit/250x250/myTransit_250x250.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+      
+       
+    </div>
+    
+</body>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-Jitender Sharma
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/livejitendersharma/four15digital/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
