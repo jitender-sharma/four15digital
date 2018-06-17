@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
-/*
+ /*
  * # Semantic UI - 2.3.1
  * https://github.com/Semantic-Org/Semantic-UI
  * http://www.semantic-ui.com/
@@ -9,9 +8,9 @@
  * http://opensource.org/licenses/MIT
  *
  */
-
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 /*!
- * # Semantic UI - Reset
+ * # Semantic UI 2.3.1 - Reset
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -541,19 +540,8 @@ template {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Site
+ * # Semantic UI 2.3.1 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -771,19 +759,8 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Button
+ * # Semantic UI 2.3.1 - Button
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -4971,19 +4948,8 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Container
+ * # Semantic UI 2.3.1 - Container
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -5143,19 +5109,8 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Divider
+ * # Semantic UI 2.3.1 - Divider
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -5421,19 +5376,8 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Flag
+ * # Semantic UI 2.3.1 - Flag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -6708,19 +6652,8 @@ i.flag.zimbabwe:before {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Header
+ * # Semantic UI 2.3.1 - Header
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -7546,19 +7479,8 @@ a.ui.inverted.grey.header:hover {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Icon
+ * # Semantic UI 2.3.1 - Icon
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -13685,19 +13607,8 @@ i.icon.youtube.square {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Image
+ * # Semantic UI 2.3.1 - Image
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14018,19 +13929,8 @@ img.ui.bordered.image {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Input
+ * # Semantic UI 2.3.1 - Input
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14601,19 +14501,8 @@ img.ui.bordered.image {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Label
+ * # Semantic UI 2.3.1 - Label
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -16043,19 +15932,8 @@ a.ui.basic.label:hover {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - List
+ * # Semantic UI 2.3.1 - List
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17131,19 +17009,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
     User Variable Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Loader
+ * # Semantic UI 2.3.1 - Loader
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17520,19 +17387,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Rail
+ * # Semantic UI 2.3.1 - Rail
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17693,19 +17549,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Reveal
+ * # Semantic UI 2.3.1 - Reveal
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -18019,19 +17864,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Segment
+ * # Semantic UI 2.3.1 - Segment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -18930,19 +18764,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Step
+ * # Semantic UI 2.3.1 - Step
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -19631,19 +19454,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Breadcrumb
+ * # Semantic UI 2.3.1 - Breadcrumb
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -19773,19 +19585,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Form
+ * # Semantic UI 2.3.1 - Form
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -20963,19 +20764,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Grid
+ * # Semantic UI 2.3.1 - Grid
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -23284,17 +23074,6 @@ ol.ui.horizontal.list li:before,
          Site Overrides
 *******************************/
 /*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
-/*
  * # Semantic - Menu
  * http://github.com/semantic-org/semantic-ui/
  *
@@ -25589,19 +25368,8 @@ Floated Menu / Item
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Message
+ * # Semantic UI 2.3.1 - Message
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -26170,19 +25938,8 @@ Floated Menu / Item
 /*******************************
         Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Table
+ * # Semantic UI 2.3.1 - Table
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -27476,19 +27233,8 @@ Floated Menu / Item
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Ad
+ * # Semantic UI 2.3.1 - Ad
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -27776,19 +27522,8 @@ Floated Menu / Item
 /*******************************
     User Variable Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Item
+ * # Semantic UI 2.3.1 - Item
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -28894,19 +28629,8 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Comment
+ * # Semantic UI 2.3.1 - Comment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -29191,19 +28915,8 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Feed
+ * # Semantic UI 2.3.1 - Feed
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -29515,19 +29228,8 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Item
+ * # Semantic UI 2.3.1 - Item
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -30047,19 +29749,8 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Statistic
+ * # Semantic UI 2.3.1 - Statistic
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -30694,19 +30385,8 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Accordion
+ * # Semantic UI 2.3.1 - Accordion
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -30968,19 +30648,8 @@ a.ui.card:hover,
 /*******************************
         User Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Checkbox
+ * # Semantic UI 2.3.1 - Checkbox
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -31654,19 +31323,8 @@ a.ui.card:hover,
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Dimmer
+ * # Semantic UI 2.3.1 - Dimmer
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -31918,19 +31576,8 @@ body.dimmable > .dimmer {
 /*******************************
         User Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Dropdown
+ * # Semantic UI 2.3.1 - Dropdown
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33576,19 +33223,8 @@ select.ui.dropdown {
 /*******************************
         User Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Video
+ * # Semantic UI 2.3.1 - Video
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -33752,19 +33388,8 @@ select.ui.dropdown {
 .ui[class*="21:9"].embed {
   padding-bottom: 42.85714286%;
 }
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Modal
+ * # Semantic UI 2.3.1 - Modal
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -34415,19 +34040,8 @@ select.ui.dropdown {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Nag
+ * # Semantic UI 2.3.1 - Nag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -34572,19 +34186,8 @@ a.ui.nag {
 /*******************************
         User Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Popup
+ * # Semantic UI 2.3.1 - Popup
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -35413,19 +35016,8 @@ a.ui.nag {
 /*******************************
         User Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Progress Bar
+ * # Semantic UI 2.3.1 - Progress Bar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -36006,19 +35598,8 @@ a.ui.nag {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Rating
+ * # Semantic UI 2.3.1 - Rating
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -36294,19 +35875,8 @@ a.ui.nag {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Search
+ * # Semantic UI 2.3.1 - Search
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -36775,19 +36345,8 @@ a.ui.nag {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Shape
+ * # Semantic UI 2.3.1 - Shape
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -36946,19 +36505,8 @@ a.ui.nag {
 /*******************************
         User Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Sidebar
+ * # Semantic UI 2.3.1 - Sidebar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -37642,19 +37190,8 @@ body.pushable > .pusher {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Sticky
+ * # Semantic UI 2.3.1 - Sticky
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -37727,19 +37264,8 @@ body.pushable > .pusher {
 /*******************************
          Site Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Tab
+ * # Semantic UI 2.3.1 - Tab
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -37826,19 +37352,8 @@ body.pushable > .pusher {
 /*******************************
         User Overrides
 *******************************/
-/*
- * # Semantic UI - 2.3.1
- * https://github.com/Semantic-Org/Semantic-UI
- * http://www.semantic-ui.com/
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 /*!
- * # Semantic UI - Transition
+ * # Semantic UI 2.3.1 - Transition
  * http://github.com/semantic-org/semantic-ui/
  *
  *
