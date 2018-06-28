@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+     <title>::Transit Directions::</title>
+      <link rel="stylesheet" type="text/css" href="../../dist/semantic.css">
+    <link rel="stylesheet" type="text/css" href="../../dist/components/checkbox.css">
+    <link rel="stylesheet" type="text/css" href="../../dist/components/menu.css">
+
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lucida+Sans'>
+    <style type="text/css">
+          
+
+        body {background-color: #4353ff;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        }
+
+        .masthead.segment {min-height: 700px; padding: 1em 0em;}
+        .ui.vertical.segment{background-image: url("images/background_1.jpg");}
+      
+        .masthead .logo.item img {margin-right: 1em;}
+      
+        .masthead h1.ui.header {margin-top: 0.5em;margin-bottom: 0em;font-size: 5em;font-weight: normal; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+        .ui.inverted.para{font-size: 1.8em; font-weight:lighter; margin-top: .1em; color: #FFFFFF; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+      
+        .ui.huge.button{font-size: 1em; margin-top: 0.8em; background-color: #4353ff; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+        .ui.huge.button:hover{background-color: #4353ff;}
+        .ui.list {margin-top: 1.5em;}
+        .ui.list.about {margin-top: 0em; margin-left: 5em;}
+
+        .masthead h2 {font-size: 1em;/*     // margin-top: 1em;*/ font-weight: normal; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+    
+        .quote.stripe.segment {padding: 0em;}
+      
+        .quote.stripe.segment .grid .column {padding-top: 5em;padding-bottom: 5em;}
+
+        .footer.segment {padding: 1em 0em;}
+
+        .ui.list > .item a.header{text-align: left;}
+        .ui.icon.header.btn {margin: 0em;}
+        .logo{width: 38%;}
+        .ui.menu:first-child { margin-bottom: 0;}
+        .ui.text.segment{margin: 0px;}
+        .ui.footer.segment{margin: 0px;border-radius: 0px;}
+        .ui.container.white {background-color: #FFFFFF !important; padding: 10px;}
+        .ui.form .four.wide.field {text-align: left; font-size: 1.2em;  padding: 8px;}
+        .ui.text.container { margin-top: 2em; padding: 30px; color:#4353ff;}
+        .ui.menu.top{margin-bottom: 0px; width: 15.2em; border-radius: 5px 5px 0px 0px; font-size: 1.1em; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+        .ui.text.segment{border-radius: 0px 5px 5px 5px; margin-top: 0px; border-top-color: grey;  font-weight:normal;font-size: 1.5em;}
+
+      
+    </style>
+    
+    
+</head>
+<body>
+
+<div class="">
+    <div class="item disabled" style="position: absolute; z-index: 1; margin-left:50px;">
+        <img class="logo ui small image" src="images/transitDirectionsLogo.png">
+    </div>
+  <div class="ui  vertical masthead center aligned segment">
+    <div class="ui container"></div>
+    <div class="ui container">
+      <h1 class="ui header inverted">Free Transit Directions</h1>
+        <p class="ui inverted para">Driving Directions, Public Transit Options, Walking Routes and More</p>
+        
+        <div class="ui text container page">
+            <div class="column">
+                <div class="ui menu top blue">
+                  <a class="active item" data-tab="Directions"><i class="map signs icon"></i>Directions</a>
+                  <a class="item" data-tab="Maps"><i class="map outline icon"></i>Maps</a> 
+                </div>
+              <div class="ui text segment">
+                <div class="ui tab" data-tab="Directions">
+                  <div class="ui small form column section">
+                    <div class="fields">
+                      <div class="four wide field">
+                        <label>Starting Point</label>
+                      </div>
+                        <div class="twelve wide field">
+                          <div class="ui input">
+                            <input type="text" placeholder="Starting Point">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="fields">
+                      <div class="four wide field">
+                        <label>Ending Point</label>
+                      </div>
+                        <div class="twelve wide field">
+                          <div class="ui input">
+                            <input type="text" placeholder="Ending Point">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="fields">
+                      <div class="four wide field">
+                        <label>Select Route Type</label>
+                      </div>
+                        <div class="twelve wide field">
+                          <div class="ui four item menu">
+                            <a class="item active">All Routes</a>
+                            <a class="item">Driving</a>
+                            <a class="item">Transit</a>
+                            <a class="item">Walking</a>
+                          </div>
+                        </div>
+                    </div>
+                 </div>
+                    <div  class="ui huge button center aligned blue">Get Directions</div>
+                </div>
+                <div class="ui tab" data-tab="Maps">
+                  <div class="ui small form column section">
+                    <div class="fields">
+                      <div class="four wide field">
+                        
+                      </div>
+                        <div class="twelve wide field">
+                          <div class="ui input">
+                           
+                          </div>
+                        </div>
+                    </div>
+                    <div class="fields">
+                      <div class="four wide field">
+                        
+                      </div>
+                        <div class="twelve wide field">
+                          <div class="ui input">
+                            
+                          </div>
+                        </div>
+                    </div>
+                    <div class="fields">
+                      <div class="four wide field">
+                       
+                      </div>
+                        <div class="twelve wide field">
+                          
+                        </div>
+                    </div>
+                 </div>
+                    <div  class="ui huge button center aligned blue">Get Directions</div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+   
+    
+    <div class="ui container white">
+         <h2></h2>
+       <h1 class="ui horizontal header">Transit-Directions.com has the best route information for every method of transport</h1>
+      <h6></h6>
+     <div class="ui three column very relaxed stackable grid container">
+        <div class="column left aligned">
+            <div class="ui raised link card">
+          <img src="images/driving.png">
+        </div> 
+        <h3 class="ui header icon btn">
+         Driving: 
+           </h3>
+            <p>Transit-Directions.com can provide you with driving directions based on current traffic conditions. Turn by turn directions make going from point A to point B easy.</p>
+      </div>
+        <div class="column left aligned">
+             <div class="ui raised link card">
+          <img src="images/public.png">
+        </div> 
+        <h3 class="ui header icon btn">
+         PublicTransit:
+        </h3>
+            <p>We have up-to-date routes and maps of thousands of transit authorities across the world. Whether it's by train, bus, subway or other option, Transit-Directions has up to date maps, route, and fare information on nearly every transit option.</p>
+      </div>
+         <div class="column left aligned">
+             <div class="ui raised link card">
+          <img src="images/walking.png">
+        </div>
+        <h3 class="ui header icon btn">
+         Walking:
+        </h3>
+             <p>In addition to street and mass transit information, we also have detailed information for those who prefer to travel by foot. Get the fastest possible walking route.</p>
+      </div>
+    </div>
+ 
+  <h1></h1>
+    
+    <div class="ui container white">
+     <div class="ui three column very relaxed stackable grid container">
+        <div class="column left aligned">
+        <h3 class="ui icon header">
+         Comprehensive Maps
+           </h3>
+            <p>If you'd like to explore a location, check out our maps. View your location via street views, satellite views and more.</p>
+      </div>
+        <div class="column" style="padding-left: 5em;padding-right: 0px;">
+        <div class="ui card">
+          <img src="images/map.png">
+        </div>
+      </div>
+         <div class="ui column left aligned">
+            <div class="ui list">
+              <div class="item">
+                <div class="list">
+                  <div class="item">
+                    <div class="ui child checkbox checked">
+                      <input type="checkbox" name="gasStations">
+                      <label>Gas Stations</label>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="ui child checkbox">
+                      <input type="checkbox" name="hospitals">
+                      <label>Hospitals</label>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="ui child checkbox">
+                      <input type="checkbox" name="coffeeShops">
+                      <label>Coffee Shops</label>
+                    </div>
+                  </div>
+                    <div class="item">
+                    <div class="ui child checkbox">
+                      <input type="checkbox" name="hotels">
+                      <label>Hotels</label>
+                    </div>
+                  </div>
+                    <div class="item">
+                    <div class="ui child checkbox">
+                      <input type="checkbox" name="airports">
+                      <label>Airports</label>
+                    </div>
+                  </div>
+                    <div class="item">
+                    <div class="ui child checkbox checked">
+                      <input type="checkbox" name="restaurants">
+                      <label>Restaurants</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+        </div>
+    </div>
+  <h2></h2>
+    
+    <div class="ui container white">
+     <div class="ui three column very relaxed stackable grid container">         
+         <div class="column center aligned">
+           <h4 class="ui icon">
+            <img class="ui icon tiny centered image center" src="images/easyUse.png">
+           </h4>Free forever and Easy to Use . No registration needed
+         </div>
+        <div class="column center aligned">
+           <h4 class="ui icon">
+            <img class="ui icon tiny centered image center" src="images/comprehensive.png">
+           </h4>Comprehensive driving, bus, train, subway and other transit information
+         </div>
+         <div class="column center aligned">
+           <h4 class="ui icon">
+            <img class="ui icon tiny centered image center" src="images/realTime.png">
+           </h4>Updated in real time. Up to the second information, worldwide
+         </div>
+        </div>
+      </div>
+      <h2></h2>
+     </div>
+
+  <div class="ui footer segment">
+    <div class="ui center aligned container ">
+      <div class="ui horizontal small divided link list">
+        <a class="item" href="#">Terms of Service</a>
+        <a class="item" href="#">EULA</a>
+        <a class="item" href="#">Privacy Policy</a>
+          <a class="item" href="#">Contact Us</a>
+          <a class="item" href="#">Uninstall</a>
+      </div>
+   </div>
+  </div>
+    </div>
+    
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/javascript/semantic.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js'></script>
+    <script src='../../dist/components/checkbox.js'></script>
+    <script>
+    $('.top.menu .item').tab();
+    </script>
+    
+</body>
+</html>
