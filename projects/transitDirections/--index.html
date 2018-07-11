@@ -4,39 +4,26 @@
   <meta charset="utf-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
      <title>::Transit Directions::</title>
-    <link rel="stylesheet" type="text/css" href="../../dist/semantic.css">
+      <link rel="stylesheet" type="text/css" href="../../dist/semantic.css">
     <link rel="stylesheet" type="text/css" href="../../dist/components/checkbox.css">
     <link rel="stylesheet" type="text/css" href="../../dist/components/menu.css">
-    <link rel='stylesheet prefetch' href='../../dist/fonts/Lucinda+Sans.css'>
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
-    
+
+<link rel='stylesheet prefetch' href='../../dist/fonts/Lucinda+Sans.css'>
     <style type="text/css">
           
 
-        body {background-color: #ffffff;
+        body {background-color: #4353ff;
         font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
         }
-        
-        .bagroundGradiant{
-            background: linear-gradient(-90deg, rgba(255,255,255,0), rgba(255,255,255,.8), rgba(255,255,255,.9), rgba(255,255,255,.8), rgba(255,255,255,0));
-            border: 2px solid transparent;
-            border-image: linear-gradient(-90deg, rgba(150,150,150,0), rgba(150,150,150,1), rgba(150,150,150,0));
-            border-image-slice: 1;
-            padding-bottom: 8px;
-            margin-top: 30px;
-            }
-        h1.ui.header{margin-top: 0px !important;}
+
         .masthead.segment {min-height: 700px; padding: 1em 0em;}
-        .ui.vertical.segment{background-image: url("images/background_Map.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover;} 
+        .ui.vertical.segment{background-image: url("images/background_1.jpg");}
       
         .masthead .logo.item img {margin-right: 1em;}
       
-        .masthead h1.ui.header {margin-top: 0.5em;margin-bottom: 0em;font-size: 5em;font-weight: normal; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #002248;  } 
-/*        text-shadow: 1px 1px 0px rgba(255,255,255,0.1);*/
-        .ui.para{font-size: 1.8em; font-weight:lighter; margin-top: .1em; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #002248;}
+        .masthead h1.ui.header {margin-top: 0.5em;margin-bottom: 0em;font-size: 5em;font-weight: normal; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+        .ui.inverted.para{font-size: 1.8em; font-weight:lighter; margin-top: .1em; color: #FFFFFF; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
       
         .ui.huge.button{font-size: 1em; margin-top: 0.8em; background-color: #4353ff; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
         .ui.huge.button:hover{background-color: #4353ff;}
@@ -50,8 +37,6 @@
         .quote.stripe.segment .grid .column {padding-top: 5em;padding-bottom: 5em;}
 
         .footer.segment {padding: 1em 0em;}
-        .ui.list{margin-top: 0px;}
-        h3.ui.icon.header{margin: 0px;}
 
         .ui.list > .item a.header{text-align: left;}
         .ui.icon.header.btn {margin: 0em;}
@@ -59,7 +44,7 @@
         .ui.menu:first-child { margin-bottom: 0;}
         .ui.text.segment{margin: 0px;}
         .ui.footer.segment{margin: 0px;border-radius: 0px;}
-        .ui.container.white {background-color: #FFFFFF !important; }
+        .ui.container.white {background-color: #FFFFFF !important; padding: 10px;}
         .ui.form .four.wide.field {text-align: left; font-size: 1.2em;  padding: 8px;}
         .ui.text.container { margin-top: 2em; padding: 30px; color:#4353ff;}
         .ui.menu.top{margin-bottom: 0px; width: 15.2em; border-radius: 5px 5px 0px 0px; font-size: 1.1em; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
@@ -72,20 +57,15 @@
 </head>
 <body>
 
-
 <div class="">
     <div class="item disabled" style="position: absolute; z-index: 1; margin-left:50px;">
         <img class="logo ui small image" src="images/transitDirectionsLogo.png">
     </div>
-  <div class="ui vertical masthead center aligned segment">
-      
-    
+  <div class="ui  vertical masthead center aligned segment">
+    <div class="ui container"></div>
     <div class="ui container">
-
-       <div class="bagroundGradiant"> 
-      <h1 class="ui header">Free Transit Directions</h1>
-        <p class="ui para">Driving Directions, Public Transit Options, Walking Routes and More</p>
-           </div>
+      <h1 class="ui header inverted">Free Transit Directions</h1>
+        <p class="ui inverted para">Driving Directions, Public Transit Options, Walking Routes and More</p>
         
         <div class="ui text container page">
             <div class="column">
@@ -136,32 +116,34 @@
                   <div class="ui small form column section">
                     <div class="fields">
                       <div class="four wide field">
+                        
                       </div>
                         <div class="twelve wide field">
                           <div class="ui input">
+                           
                           </div>
                         </div>
                     </div>
                     <div class="fields">
                       <div class="four wide field">
-                        <label>Enter Location</label>
+                        
                       </div>
                         <div class="twelve wide field">
                           <div class="ui input">
-                            <input type="text" placeholder="Enter Location">
+                            
                           </div>
                         </div>
                     </div>
                     <div class="fields">
                       <div class="four wide field">
-                        <label></label>
+                       
                       </div>
                         <div class="twelve wide field">
                           
                         </div>
                     </div>
                  </div>
-                    <div  class="ui huge button center aligned blue">Map My Location</div>
+                    <div  class="ui huge button center aligned blue">Get Directions</div>
                 </div>
               </div>
             </div>
@@ -204,9 +186,8 @@
              <p>In addition to street and mass transit information, we also have detailed information for those who prefer to travel by foot. Get the fastest possible walking route.</p>
       </div>
     </div>
-        <h6></h6>
- <div class="ui divider"></div>
-   <h4></h4>
+ 
+  <h1></h1>
     
     <div class="ui container white">
      <div class="ui three column very relaxed stackable grid container">
@@ -218,47 +199,46 @@
       </div>
         <div class="column" style="padding-left: 5em;padding-right: 0px;">
         <div class="ui card">
-            <iframe src="map.html" draggable="false" style="border: 0px;"></iframe>
+          <img src="images/map.png">
         </div>
       </div>
          <div class="ui column left aligned">
-             <h3 class="ui icon header">Map Popular Points of Interest</h3>
             <div class="ui list">
               <div class="item">
                 <div class="list">
                   <div class="item">
-                    <div class="ui checked checkbox">
-                      <input type="checkbox" name="gasStations" checked="checked">
+                    <div class="ui child checkbox checked">
+                      <input type="checkbox" name="gasStations">
                       <label>Gas Stations</label>
                     </div>
                   </div>
                   <div class="item">
                     <div class="ui child checkbox">
-                      <input type="checkbox" name="hospitals" checked="checked">
+                      <input type="checkbox" name="hospitals">
                       <label>Hospitals</label>
                     </div>
                   </div>
                   <div class="item">
                     <div class="ui child checkbox">
-                      <input type="checkbox" name="coffeeShops" checked="checked">
+                      <input type="checkbox" name="coffeeShops">
                       <label>Coffee Shops</label>
                     </div>
                   </div>
                     <div class="item">
                     <div class="ui child checkbox">
-                      <input type="checkbox" name="hotels" checked="checked">
+                      <input type="checkbox" name="hotels">
                       <label>Hotels</label>
                     </div>
                   </div>
                     <div class="item">
                     <div class="ui child checkbox">
-                      <input type="checkbox" name="airports" checked="checked">
+                      <input type="checkbox" name="airports">
                       <label>Airports</label>
                     </div>
                   </div>
                     <div class="item">
                     <div class="ui child checkbox checked">
-                      <input type="checkbox" name="restaurants" checked="checked">
+                      <input type="checkbox" name="restaurants">
                       <label>Restaurants</label>
                     </div>
                   </div>
@@ -268,24 +248,24 @@
          </div>
         </div>
     </div>
-  <h1></h1>
+  <h2></h2>
     
     <div class="ui container white">
      <div class="ui three column very relaxed stackable grid container">         
          <div class="column center aligned">
-           <h3 class="ui icon">
-            <img class="ui icon small centered image center" src="images/easyUse.png">
-             </h3><div class="ui header">Free forever and Easy to Use . No registration needed</div>
+           <h4 class="ui icon">
+            <img class="ui icon tiny centered image center" src="images/easyUse.png">
+           </h4>Free forever and Easy to Use . No registration needed
          </div>
         <div class="column center aligned">
            <h4 class="ui icon">
-            <img class="ui icon small centered image center" src="images/comprehensive.png">
-            </h4><div class="ui header">Comprehensive driving, bus, train, subway and other transit information</div>
+            <img class="ui icon tiny centered image center" src="images/comprehensive.png">
+           </h4>Comprehensive driving, bus, train, subway and other transit information
          </div>
          <div class="column center aligned">
            <h4 class="ui icon">
-            <img class="ui icon small centered image center" src="images/realTime.png">
-             </h4><div class="ui header">Updated in real time. Up to the second information, worldwide</div>
+            <img class="ui icon tiny centered image center" src="images/realTime.png">
+           </h4>Updated in real time. Up to the second information, worldwide
          </div>
         </div>
       </div>
@@ -305,28 +285,12 @@
   </div>
     </div>
     
-    <script>
-//mapboxgl.accessToken = 'pk.eyJ1IjoiamVldHVzaGFybWEiLCJhIjoiY2pqNWNyb3NsMXNmejNyczJrcmF5ZnpodCJ9.TlCx2QKOPKYRkQNHzWuDiw';
-//var map = new mapboxgl.Map({
-//    container: 'map',
-//    style: 'mapbox://styles/mapbox/streets-v9',
-//    center: [-79.4512, 43.6568],
-//    zoom: 13
-//});
-//
-//map.addControl(new MapboxDirections({
-//    accessToken: mapboxgl.accessToken
-//}), 'top-left');
-</script>
-    
     <script src='jquery.min.js'></script>
 <script src='semantic.min.js'></script>
 <script src='jquery.address.min.js'></script>
     <script src='../../dist/components/checkbox.js'></script>
     <script>
     $('.top.menu .item').tab();
-        
-//        $('.ui.checkbox').checkbox('attach events', '.toggle.button');
     </script>
     
 </body>
