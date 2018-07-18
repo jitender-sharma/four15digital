@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>semantic-ui modal</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css'>
+
+   <style type="text/css">
+      
+      body { background-color: #f4f4f4;}
+      .disable {color: #5c5c5c; text-align: left; margin: 0; margin-left: 16.4em;}
+       .ui.progress.success>.label {
+    color: #5d5d5d;
+           text-align: left; padding-top: 10px; font-weight: normal}
+       .ui.progress .bar{width: 50%; background-color: #05386b;}
+       .ui.progress.success .bar {
+    background-color: #05386b!important;
+}
+
+       h1 { text-align: left; font-size: 2em;font-weight: normal; color: #002248;}
+      .ui.vertical.segment {border:0px;}
+      .ui.grid {text-align: center;}
+      .ui.icon {margin-bottom: 0pc;}
+      .ui.tiny.image {margin: 2px 0px 2px 2em;}
+      .ui.tiny.image.center {margin: auto !important;}
+      .ui.fixed.menu{background-color: #ECECEC; background-color:#002248 !important;}
+      .trackingClass{text-align: right; margin-right: 17em;}
+      .header { text-align: center; font-size: 3.8em;font-weight: normal; color: #002248;}
+      .ui.footer.segment{background-color:#002248; border-radius: 0pc; border-top: 2px solid #ECECEC !important; margin: 0px; border: 0px;}
+      .ui.vertical.masthead.segment {padding: 0.5em 0em;margin-top: 4.3em;}
+       .ui.form {margin:auto; height: 15.16em; width: 48.1em; background-color: #f4f4f3; padding: 0px; }
+      .ui.massive.button:hover{background-color: darkorange; box-shadow: 0px 0px 10px 0px darkorange}
+      .ui.massive.button{font-size: 2.3em; margin-top: 0.6em; box-shadow: 0px 0px 10px 0px #dd951a; background-color: #dd951a; border-radius: 0px;}
+     .ui.form textarea:not([rows]) {
+        height: 15em;
+        min-height: 10em;
+        max-height: 15em;
+        line-height: 1.5rem;
+        padding: 1.063rem;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+        font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+         font-size: 1em;
+         width: 48em;
+         border: 1px solid darkblue;
+        }
+       
+#spin:after {
+  content:"";
+  animation: spin 4s linear infinite;
+}
+@keyframes spin {
+  0% { content:"Checking numbers"; }
+  50% { content:"loading origin information"; }
+  75% { content:"loading current status"; }
+  100% { content:"complete"; }
+}
+  </style>
+
+  
+</head>
+
+<body>
+    
+    <div class="ui top menu inverted borderless fixed">
+    <div class="left menu">
+        <div class="ui tiny image centered"><img src="images/trackPackagesLogo_Text.png"></div>
+    </div>
+      <div class="right inverted menu horizontal divided">
+        <a class="item">All Carriers</a>
+        <a class="item">UPS</a>
+        <a class="item">DHL</a>
+        <a class="item">USPS</a>
+        <a class="item">Fedex</a>
+        <a class="item">Royal Mail</a>
+        <a class="item">Canada Post</a>
+        <a class="item">Parcelforce</a>
+    </div>
+</div>
+    
+  <div class="ui vertical center aligned masthead segment">   
+<div class="ui container">
+    <h1 class="header">Track and Map Packages - Free</h1>
+    <p class="">Track packages from <a href="#"><u>509</u></a> carriers worldwide</p>
+    <p class="disable">We will automatically detect the carrier. Upload one or multiple tracking numbers.</p>
+    <div class="ui form segment textarea">
+        <div class="field input ">
+            <textarea class="" placeholder="Enter your tracking numbers."></textarea>
+        </div>
+    </div>
+    <div class="right floated content">
+        <p class="trackingClass">Don't know your tracking number? <a href="#"><u>Click here</u></a></p>
+    </div>
+ </div> 
+
+<!--  <button class="ui button yellow create_btn" type="button" id="test">Create</button>-->
+    
+    <div class="ui massive button blue create_btn" type="button" id="test" data-url="images/trackPackagesLogo_Text.png"> <i class="shipping fast icon"></i>Track My Package</div>
+	  <div class="ui modal test">
+          <h1></h1><h6></h6>
+          <div class="ui text container">
+         <h1>Tracking Number</h1>
+          <div class="ui big progress success">
+          <div class="bar">
+            <div class="progress"></div>
+          </div>
+          <div class="label left aligned"><p> <span id="spin"></span></p></div>
+              
+        </div>
+          
+  <h1></h1><h1></h1>
+<!--
+  <div class="actions">
+    <div class="ui black deny button">
+      Nope
+    </div>
+    <div class="ui positive right labeled icon button">
+      Yep, that's me
+      <i class="checkmark icon"></i>
+    </div>
+  </div>
+-->
+</div>
+</div>
+</div>
+ <h1></h1>
+    <h6></h6>
+    
+<div class="ui container">
+  <h1>Track-Packages.com works with all carriers worldwide</h1>
+    <h6></h6>
+    <div class="five column  stackable center aligned ui grid">
+      <div class="column">       
+        <div class="ui raised link card">
+          <img src="images/UPS_Logo.png">
+        </div>        
+      </div>
+      <div class="column">       
+        <div class="ui raised link card">
+          <img src="images/dhl.png">
+        </div>        
+      </div>
+      <div class="column">       
+        <div class="ui raised link card">
+          <img src="images/uitedState.png">
+        </div>        
+      </div>
+      <div class="column">       
+        <div class="ui raised link card">
+          <img src="images/fedex.png">
+        </div>        
+      </div>
+       <div class="column">       
+        <div class="ui raised link card">
+          <img src="images/royalMail.png">
+        </div>
+           <p>..and hundreds <a href="#"><u>more!</u></a></p>  
+      </div>
+    </div> 
+</div>
+ <h1></h1>
+    <h2></h2>
+    
+<div class="ui container">
+  <div class="three column divided center stackable  ui grid">
+    <div class="column">
+        <h4 class="ui icon">
+          <img class="ui icon tiny centered image center" src="images/multipleCarriers.png">
+          Multiple Carriers:
+        </h4>
+         Find your packages with access to hundreds of regional, national and international package carriers.
+    </div>
+      <div class="column">
+        <h4 class="ui icon">
+          <img class="ui tiny centered image center" src="images/multipleTracking.png">
+          Track by One or Multiple Numbers:
+        </h4>
+         Upload as many tracking numbers as you like. If you're not sure of your tracking number, <a href="#"><u>click here</u></a> to find out
+    </div>
+
+    <div class="column">
+        <h4 class="ui icon">
+          <img class="ui icon tiny centered image center" src="images/getUpdates.png">
+          Get Updates:
+        </h4>
+         Once you've found your package, you can opt-in to recieve status updates from most carriers
+    </div>
+  </div>
+</div>
+<h1></h1>
+    
+  <div class="ui footer segment">
+    <div class="ui center aligned inverted container">
+      <div class="ui horizontal inverted small divided link list">
+        <a class="item" href="#">Terms</a>
+        <a class="item" href="#">Privacy Policy</a>
+        <a class="item" href="#">Uninstall</a>
+      </div>
+    </div>
+  </div>
+      
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.7/semantic.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
