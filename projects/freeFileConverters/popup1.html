@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+     <title>::Free File Converters::</title>
+      <link rel="stylesheet" type="text/css" href="../../dist/semantic.css">
+    <link rel="stylesheet" href="style.css" />
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.7/semantic.min.js'></script>
+     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css'>
+    <script type="text/javascript" src="script.js"></script>
+    <style type="text/css">
+
+        .hidden.menu {display: none;}
+
+        .masthead.segment {min-height: 720px; padding: 1em 0em;}
+      
+        .masthead .logo.item img {margin-right: 1em;}
+      
+        .masthead .ui.menu .ui.button {margin-left: 0.5em; }
+    
+        .masthead h1.ui.header {margin-top: 1.1em;margin-bottom: 0.3em;font-size: 3.8em;font-weight: normal;}
+      
+        .ui.massive.button{font-size: 2.8em; margin-top: -0.8em;}
+      
+        .ui.list {margin-top: 1.5em;}
+        .ui.list.about {margin-top: 0em; margin-left: 5em;}
+
+        .masthead h2 {font-size: 1em;/*     // margin-top: 1em;*/ font-weight: normal;}
+    
+        .quote.stripe.segment {padding: 0em;}
+      
+        .quote.stripe.segment .grid .column {padding-top: 5em;padding-bottom: 5em;}
+
+        .footer.segment {padding: 1em 0em;}
+
+        .ui.list > .item a.header{text-align: left;}
+        .ui.icon.header.btn {margin-top: 3em;}
+        .logo{width: 38%;}
+        .ui.menu .item{padding: 5px;}
+        .ui.blue.header {color: #147af4 !important;}
+        #newpost1 {display :none; text-align: left;}
+        #newpost {display :block;}
+         #text1 {display :none;text-align: center;}
+        #text {display :block;}
+        .ui.steps .step:after{width: 0px; height: 0px;}
+      
+    </style>
+    
+    <script>
+     function showhide()
+     {
+           var div = document.getElementById("newpost");
+         var div1 = document.getElementById("newpost1");
+    if (div.style.display !== "none") {
+        div.style.display = "none";
+        div1.style.display = "block";
+    }
+    else if (div.style.display = "block") {
+        div.style.display = "block";
+        div1.style.display = "none";
+        
+    }
+     }
+    function showhide1()
+     {
+           var div = document.getElementById("text");
+         var div1 = document.getElementById("text1");
+    if (div.style.display !== "none") {
+        div.style.display = "none";
+        div1.style.display = "block";
+    }
+    else if (div.style.display = "block") {
+        div.style.display = "block";
+        div1.style.display = "none";
+        
+    }
+     }
+  </script>
+    
+</head>
+<body>
+
+
+<div class="ui large top fixed menu borderless">
+  <div class="ui container">
+    <a class=" item disabled">
+        <img class="logo ui inverted image" src="images/freeFileConvertersLogo.png">
+    </a>
+  </div>
+</div>
+
+<div class="">
+  <div class="ui  vertical masthead center aligned segment">
+    <div class="ui container"></div>
+    <div class="ui container">
+      <h1 class="ui header blue">Convert Your Files To & From PDF</h1>
+        <img class="ui big fluid centered image" src="images/HeroColor.png">
+<!--        <div  class="ui massive button orange" type="button" id="test" data-url="images/freeFileConvertersLogo.png"> <i class="cloud upload icon Large"></i>Upload Your File</div>-->
+        <div  class="ui massive button orange"  id="test" data-url="images/freeFileConvertersLogo.png"> <i class="cloud upload icon Large"></i>Upload Your File</div>
+        <p class="ui grey" id="text">.doc, .docx, .jpg, .jpeg <a id="button1" onclick="showhide1()">(more)</a></p>
+        <p class="ui grey" id="text1">.doc, .docx, .jpg, .jpeg .png, .gif, .bmp,.txt, .xls, .xlsx, .rtf, .odt, .wpd, .wps, .odg, .odp, .sxi, .ppt, .pptx, .pps, .ppsx, .djvu, .sxw, .docm, .azw, .epub, .fb2, .lit, .lrf, .mobi, .pdb, .eps, .tcr, .tif, .tiff <a id="button1" onclick="showhide1()">(less)</a></p>
+
+        <div class="ui modal test" style="width: 550px;">
+       
+            
+            <div class=" ui segment form column section small " style="padding: 1em 2em !important;">
+                <h6></h6>
+        <div class="column">
+            <div class="ui basic segment custom_heading" style="padding: 0px;">
+                <h3 class="ui header">
+                    <div class="content ui header blue">
+                       Free File Converter
+                    </div>
+                </h3>
+            </div>
+        </div>
+            <div class="ui clearing divider" style="margin: 8px;"></div>   
+                <h4></h4>
+            <div class="fields ">
+                
+                <div class="three wide field">
+                    <h5 style="font-size: 1.3em;">Choose file</h5>
+                </div>
+                <div class="thirteen wide field">
+                    <div class="ui small action input">
+                        <input class="ui input" type="text" placeholder="Select file to upload" readonly>
+                        <input type="file" accept=".jpeg,.png,.jpg,.gif" class="hidden" data-filetype="logo">
+                        <button class="ui button">Upload</button>
+                    </div>
+                </div>
+                
+            </div>
+                <div class="ui container center aligned">
+            <div  class="ui button big orange center aligned"  id="test1" data-url="images/freeFileConvertersLogo.png">Convert to PDF</div>
+
+                    </div>
+
+            <h6></h6>
+            </div>
+            
+            </div>
+          
+      
+    </div>
+
+      <div class="ui large horizontal list">
+          <div class="item">
+            <i class="large green checkmark icon"></i>
+            <div class="content">
+              <div class="header">Free</div>
+            </div>
+          </div>
+          <div class="item">
+            <i class="large green checkmark icon"></i>
+            <div class="content">
+              <div class="header">Safe & Secure</div>
+            </div>
+          </div>
+          <div class="item">
+            <i class="large green checkmark icon"></i>
+            <div class="content">
+              <div class="header">Simple to Use</div>
+            </div>
+          </div>
+          <div class="item">
+            <i class="large green checkmark icon"></i>
+            <div class="content">
+              <div class="header">Lightning Fast</div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <h2></h2>
+    
+    <div class="ui container">
+       <h1 class="ui center aligned horizontal header">Covert Your Files to PDF in 3 Simple Steps</h1>
+      <h6></h6>
+    <div class="ui fluid steps">
+      <div class="step">
+        <i class="upload icon blue"></i>
+        <div class="content">
+          <div class="title">Step 1</div>
+          <div class="description">Upload Your File</div>
+        </div>
+      </div>
+      <div class="step">
+        <i class="download icon blue"></i>
+        <div class="content">
+          <div class="title">Step 2</div>
+          <div class="description">Download the Free File Converters</div>
+        </div>
+      </div>
+      <div class="step">
+        <i class="file alternate icon blue"></i>
+        <div class="content">
+          <div class="title">Step 3</div>
+          <div class="description">Select your desired final file format</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2></h2>
+       
+<div class="ui stripe community vertical segment">
+  <div class="ui two column center aligned divided very relaxed stackable grid container">
+    <div class="row">
+      <div class="column">
+        <h2 class="ui icon header">
+          About the free file Converters
+        </h2>
+        <div class="ui list about">
+          <div class="item">
+            <i class="chevron circle right icon"></i>
+            <div class="content">
+              <a class="header">License</a>
+              <div class="description">Freeware</div>
+            </div>
+          </div>
+          <div class="item">
+            <i class="chevron circle right icon"></i>
+            <div class="content">
+              <a class="header">Updated</a>
+              <div class="description">04/01/2018</div>
+            </div>
+          </div>
+          <div class="item">
+            <i class="chevron circle right icon"></i>
+            <div class="content">
+              <a class="header">Requirements</a>
+              <div class="description">No special requirements</div>
+            </div>
+          </div>
+          <div class="item">
+            <i class="chevron circle right icon"></i>
+            <div class="content">
+              <a class="header">OS</a>
+              <div class="description">Windows 10, 8, 7, Vista, Mac OS</div>
+            </div>
+          </div>
+          <div class="item">
+            <i class="chevron circle right icon"></i>
+            <div class="content">
+              <a class="header">File Formats</a>
+              <div class="description" id="newpost">PDF, DOC, XLS, PPT, BMP, JPG, TIFF <a id="button" onclick="showhide()">+ more</a></div>
+                <div class="description" id="newpost1">PDF, DOC, XLS, PPT, BMP, JPG, TIFF PNG, GIF, JPEG, TXT, DOCX, XLSX, RTF, ODT, WPD, WPS, ODG, ODP, SXI, PPTX, PPS, PPSX, DJVU, SXW, DOCM, AWZ, EPUB, FB2, LIT, LRF, MOBI, PDB, EPS, TCR, TIF<a id="button" onclick="showhide()">- less</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column center aligned">
+        <h2 class="ui icon header btn">
+         Download the free file converter
+        </h2>
+        <div  class="ui large button blue"> <i class="download icon"></i>Download Free</div>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+<h2></h2>
+
+  <div class="ui vertical inverted  footer segment">
+    <div class="ui center aligned container ">
+      <div class="ui horizontal inverted small divided link list">
+        <a class="item" href="#">Terms</a>
+        <a class="item" href="#">Privacy</a>
+        <a class="item" href="#">Uninstall</a>
+      </div>
+   </div>
+  </div>  
+
+ <script>   
+    $(function(){
+	$("#test").click(function(){
+		$(".test").modal('show');
+	});
+	$(".test").modal({
+		closable: true
+	});
+});
+
+//ui massive button blue create_btn
+$('.rapid.example .ui.massive.button')
+  .on('click', function() {
+    var
+      $progress       = $('.rapid.example .ui.progress'),
+      $button         = $(this),
+      updateEvent
+    ;
+    // restart to zero
+    clearInterval(window.fakeProgress)
+    $progress.progress('reset');
+     // updates every 10ms until complete
+    window.fakeProgress = setInterval(function() {
+      $progress.progress('increment');
+      $button.text( $progress.progress('get value') );
+      // stop incrementing when complete
+      if($progress.progress('is complete')) {
+        clearInterval(window.fakeProgress)
+      }
+    }, 10);
+  })
+;
+$('.rapid.example .ui.progress')
+  .progress({
+    duration : 200,
+    total    : 200,
+    text     : {
+      active: '{value} of {total} done'
+    }
+  })
+;
+
+</script>
+    
+</body>
+</html>
